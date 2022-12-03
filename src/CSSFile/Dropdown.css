@@ -186,8 +186,6 @@
   margin-top: 2px;
 }
 
-/* responsive */
-
 @media (max-width: 1960px) {
   .purpleCard1 {
     position: relative;
@@ -205,7 +203,6 @@
   }
 }
 
-/* 1024 */
 @media (max-width: 1024px) {
   .cardImage2 {
     position: absolute;
@@ -218,6 +215,22 @@
     color: var(--white);
 
     margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .containerDropdown {
+    height: 96.875rem;
+  }
+
+  .cardsDropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    row-gap: 2.5rem;
   }
 }
 
@@ -252,7 +265,6 @@
   }
 }
 
-/* 420 */
 @media (max-width: 420px) {
   .containerDropdown {
     height: 100rem;
@@ -292,7 +304,6 @@
   }
 }
 
-/* 360 */
 @media (max-width: 360px) {
   .containerDropdown {
     height: 108rem;
@@ -313,21 +324,21 @@
 
     width: 100%;
 
-    row-gap: 2.5rem;
+    row-gap: 4.5rem;
   }
 
   .purpleCard1 {
     position: absolute;
-    top: 1755px;
+    top: 1756px;
   }
 
   .purpleCard2 {
     position: absolute;
-    top: 2030px;
+    top: 2039px;
   }
 
   .purpleCard3 {
     position: absolute;
-    top: 2305px;
+    top: 2352px;
   }
 }
