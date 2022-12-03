@@ -61,13 +61,9 @@
   line-height: 20px;
 }
 
-/* responsive */
-
-/* 1920 */
 @media (max-width: 1920px) {
 }
 
-/* 1024 */
 @media (max-width: 1024px) {
   .containerSuitcase {
     width: 100%;
@@ -85,8 +81,6 @@
     top: -10px;
   }
 }
-
-/* 420 */
 
 @media (max-width: 420px) {
   .containerSuitcase {
@@ -143,7 +137,6 @@
   }
 }
 
-/* 360 */
 @media (max-width: 360px) {
   .containerSuitcase {
     width: 100%;
@@ -191,6 +184,6 @@
   }
 
   .suitcaseText {
-    width: 282px;
+    width: 275px;
   }
 }
