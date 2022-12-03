@@ -1,0 +1,343 @@
+.containerCircule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textCircule {
+  width: 59rem;
+
+  margin-top: 4.4rem;
+
+  font-size: 1.25rem;
+
+  color: var(--gray-500);
+}
+
+.imageCircule {
+  margin-top: 4.375rem;
+}
+
+.buttonCirculeYellow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 3.375rem;
+  height: 3.375rem;
+
+  background-color: var(--green-300);
+
+  border-radius: 50%;
+
+  position: relative;
+  top: -550px;
+  left: 275px;
+
+  cursor: pointer;
+}
+
+.minos {
+display: none;
+}
+
+.circuleYellow {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  background-color: var(--yellow-400);
+  
+  border: 2px solid var(--black);
+  border-radius: 50%;
+
+  min-width: 335px;
+  height: 335px;
+  
+  position: relative;
+  top: 205px;
+  left: -9px;
+
+  font-size: 26px;
+  z-index: 5;
+}
+
+.textPCircules {
+  font-weight: bold;
+}
+
+.buttonCirculeYellow:active .circuleYellow {
+  display: flex;
+}
+
+.buttonCirculeYellow:active .plus {
+  display: none;
+}
+
+.buttonCirculeYellow:active {
+  background-color: var(--purple-700);
+}
+
+.buttonCirculeYellow:active .minos {
+  display: block;
+
+  position: relative;
+
+  left: 169px;
+}
+
+
+.buttonCirculeGray {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 3.375rem;
+  height: 3.375rem;
+
+  background-color: var(--green-300);
+
+  border-radius: 50%;
+
+  position: relative;
+  top: -200px;
+  left: 500px;
+
+  cursor: pointer;
+}
+
+.circuleGray {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  background-color: var(--gray-500);
+
+  color: var(--white);
+  
+  border: 2px solid var(--black);
+  border-radius: 50%;
+
+  min-width: 335px;
+  height: 335px;
+  
+  position: relative;
+  top: -194px;
+  left: -245px;
+
+  font-size: 26px;
+  z-index: 5;
+}
+
+.buttonCirculeGray:active .circuleGray {
+  display: flex;
+}
+
+.buttonCirculeGray:active .plus {
+  display: none;
+}
+
+.buttonCirculeGray:active {
+  background-color: var(--purple-700);
+}
+
+.buttonCirculeGray:active .minos {
+  display: block;
+
+  position: relative;
+
+  left: 159px;
+}
+
+.buttonCirculeRed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 3.375rem;
+  height: 3.375rem;
+
+  background-color: var(--green-300);
+
+  color: var(--white);
+
+  border-radius: 50%;
+
+  position: relative;
+  top: -254px;
+  left: 50px;
+
+  cursor: pointer;
+}
+
+.circuleRed {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  background-color: var(--red-300);
+  
+  border: 2px solid var(--black);
+  border-radius: 50%;
+
+  min-width: 335px;
+  height: 335px;
+  
+  position: relative;
+  top: -194px;
+  left: 205px;
+
+  font-size: 26px;
+  z-index: 5;
+}
+
+.buttonCirculeRed:active .circuleRed {
+  display: flex;
+}
+
+.buttonCirculeRedy:active .plus {
+  display: none;
+}
+
+.buttonCirculeRed:active {
+  background-color: var(--purple-700);
+}
+
+.buttonCirculeRed:active .minos {
+  display: block;
+
+  position: relative;
+
+  left: 159px;
+}
+
+/* responsive */
+
+/* 1920 */
+@media (max-width: 1920px) {
+}
+
+/* 1024 */
+@media (max-width: 1024px) {
+  .textCircule {
+    width: 38.75rem;
+
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .buttonCirculeGray {
+    top: -195px;
+    left: 505px;
+  }
+
+  .buttonCirculeRed {
+    top: -240px;
+    left: 53px;
+  }
+}
+
+/* 360 */
+@media (max-width: 360px) {
+  .textCircule {
+    width: 20rem;
+
+    font-size: 1rem;
+  }
+
+  .imageCircule img {
+    width: 20rem;
+  }
+
+  .buttonCirculeYellow {
+    width: 1.8319rem;
+    height: 1.8319rem;
+
+    position: relative;
+    top: -255px;
+    left: 129px;
+  }
+
+  .buttonCirculeYellow img {
+    width: 0.6875rem;
+  }
+
+  .circuleYellow {
+    min-width: 150px;
+    height: 150px;
+    
+    position: relative;
+    top: 93px;
+    left: -7px;
+  
+    font-size: 14px;
+    z-index: 5;
+  }
+
+  .buttonCirculeYellow:active .minos {
+    left: 77px;
+  }
+
+  .buttonCirculeGray {
+    width: 1.8319rem;
+    height: 1.8319rem;
+
+    position: relative;
+    top: -97px;
+    left: 235px;
+  }
+
+  .buttonCirculeGray img {
+    width: 0.6875rem;
+  }
+
+  .buttonCirculeRed {
+    width: 1.8319rem;
+    height: 1.8319rem;
+
+    position: relative;
+    top: -122px;
+    left: 23px;
+  }
+
+  .circuleGray {
+    min-width: 150px;
+    height: 150px;
+    
+    position: relative;
+    top: -88px;
+    left: -117px;
+  
+    font-size: 14px;
+    z-index: 5;
+  }
+
+  .buttonCirculeGray:active .minos {
+    left: 72.3px;
+  }
+
+  .buttonCirculeRed img {
+    width: 0.6875rem;
+  }
+
+  .circuleRed {
+    min-width: 150px;
+    height: 150px;
+    
+    position: relative;
+    top: -88px;
+    left: 95px;
+  
+    font-size: 14px;
+    z-index: 5;
+  }
+
+  .buttonCirculeRed:active .minos {
+    left: 72.3px;
+  }
+}

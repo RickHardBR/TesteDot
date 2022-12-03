@@ -1,0 +1,101 @@
+.containerTop {
+  background-image: url(../assets/imagens/header-1024.png);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  background-size: 100vw 58.5625rem;
+
+  width: 100%;
+  height: 58.5625rem;
+}
+
+.contentTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logodotTop {
+  background-image: url(../assets/icones/icon-logo-header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 6.25rem;
+
+  width: 16rem;
+  height: 4.6875rem;
+}
+
+.dotTitleTop {
+  font-size: 5.4375rem;
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin-top: 4.25rem;
+}
+
+.dotTextTop {
+  font-size: 1.875rem;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+/* responsive */
+
+/* 1920 */
+@media (max-width: 1920px) {
+  .containerTop {
+    background-image: url(../assets/imagens/header-1920.png);
+  }
+}
+
+/* 1024 */
+@media (max-width: 1024px) {
+  :root {
+    font-size: 87.5%;
+  }
+
+  .containerTop {
+    background-image: url(../assets/imagens/header-1024.png);
+  }
+}
+
+/* 360 */
+@media (max-width: 360px) {
+  .containerTop {
+    background-image: url(../assets/imagens/header-360.png);
+    background-size: cover;
+
+    width: 100%;
+    height: 446px;
+  }
+
+  .logodotTop {
+    background-image: url(../assets/icones/icon-logo-header.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin-top: 53.5px;
+
+    width: 138.85px;
+    height: 41.25px;
+
+    z-index: 5;
+  }
+
+  .dotTitleTop {
+    font-size: 45px;
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-top: 6.45rem;
+  }
+
+  .dotTextTop {
+    font-size: 18px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+}
