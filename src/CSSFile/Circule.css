@@ -231,14 +231,19 @@ display: none;
 }
 
 @media (max-width: 690px) {
+  .buttonCirculeYellow {
+    top: -542px;
+    left: 276px;
+  }
+
   .buttonCirculeGray {
     top: -195px;
     left: 505px;
   }
 
   .buttonCirculeRed {
-    top: -240px;
-    left: 53px;
+    top: -241px;
+    left: 51px;
   }
 }
 
@@ -256,12 +261,12 @@ display: none;
   }
 
   .buttonCirculeYellow {
-    width: 1.8319rem;
-    height: 1.8319rem;
+    width: 2.3rem;
+    height: 2.3rem;
 
     position: relative;
-    top: -315px;
-    left: 162px;
+    top: -319px;
+    left: 160px;
   }
 
   .buttonCirculeYellow img {
@@ -285,11 +290,11 @@ display: none;
   }
 
   .buttonCirculeGray {
-    width: 1.8319rem;
-    height: 1.8319rem;
+    width: 2.3rem;
+    height: 2.3rem;
 
     position: relative;
-    top: -110px;
+    top: -122px;
     left: 295px;
   }
 
@@ -314,12 +319,12 @@ display: none;
   }
 
   .buttonCirculeRed {
-    width: 1.8319rem;
-    height: 1.8319rem;
+    width: 2.3rem;
+    height: 2.3rem;
 
     position: relative;
-    top: -138px;
-    left: 28px;
+    top: -156px;
+    left: 26px;
   }
 
   .buttonCirculeRed img {
