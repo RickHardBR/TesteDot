@@ -5,6 +5,11 @@
   font-size: 100%;
   font-family: 'Raleway';
   vertical-align: baseline;
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -28,3 +33,5 @@
     border-radius: 8px;
     border: 1px solid #ffffff;
   }
+
+  
