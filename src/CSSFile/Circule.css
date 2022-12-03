@@ -310,7 +310,7 @@ display: none;
   }
 
   .buttonCirculeGray:active .minos {
-    left: 72.3px;
+    left: 92.4px;
   }
 
   .buttonCirculeRed {
@@ -339,7 +339,7 @@ display: none;
   }
 
   .buttonCirculeRed:active .minos {
-    left: 72.3px;
+    left: 92px;
   }
 
 }
