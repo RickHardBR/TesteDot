@@ -242,6 +242,108 @@ display: none;
   }
 }
 
+/* 420 */
+
+@media (max-width: 420px) {
+  .textCircule {
+    width: 25rem;
+
+    font-size: 1rem;
+  }
+
+  .imageCircule img {
+    width: 25rem;
+  }
+
+  .buttonCirculeYellow {
+    width: 1.8319rem;
+    height: 1.8319rem;
+
+    position: relative;
+    top: -315px;
+    left: 162px;
+  }
+
+  .buttonCirculeYellow img {
+    width: 0.6875rem;
+  }
+
+  .circuleYellow {
+    min-width: 190px;
+    height: 190px;
+    
+    position: relative;
+    top: 117px;
+    left: -5px;
+  
+    font-size: 14px;
+    z-index: 5;
+  }
+
+  .buttonCirculeYellow:active .minos {
+    left: 97px;
+  }
+
+  .buttonCirculeGray {
+    width: 1.8319rem;
+    height: 1.8319rem;
+
+    position: relative;
+    top: -110px;
+    left: 295px;
+  }
+
+  .buttonCirculeGray img {
+    width: 0.6875rem;
+  }
+
+  .circuleGray {
+    min-width: 190px;
+    height: 190px;
+    
+    position: relative;
+    top: -115px;
+    left: -142px;
+  
+    font-size: 14px;
+    z-index: 5;
+  }
+
+  .buttonCirculeGray:active .minos {
+    left: 72.3px;
+  }
+
+  .buttonCirculeRed {
+    width: 1.8319rem;
+    height: 1.8319rem;
+
+    position: relative;
+    top: -138px;
+    left: 28px;
+  }
+
+  .buttonCirculeRed img {
+    width: 0.6875rem;
+  }
+
+ .circuleRed {
+    min-width: 190px;
+    height: 190px;
+    
+    position: relative;
+    top: -110px;
+    left: 125px;
+  
+    font-size: 14px;
+    z-index: 5;
+  }
+
+  .buttonCirculeRed:active .minos {
+    left: 72.3px;
+  }
+
+}
+
 /* 360 */
 @media (max-width: 360px) {
   .textCircule {

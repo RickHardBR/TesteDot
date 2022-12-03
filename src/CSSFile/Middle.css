@@ -171,6 +171,73 @@
      left: 15px;
    }
  }
+ 
+/* 420 */
+@media (max-width: 420px) {
+  .containerMiddle {
+    width: 100%;
+    height: 48.75rem;
+  }
+  
+    .middleCard {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .middleImage {
+      width: 100%;
+  
+      position: relative;
+  
+      top:-200px;
+      left: -4px;
+    }
+  
+    #blue {
+      position: relative;
+  
+      top: 50px;
+      left: -40px;
+    }
+    
+    #yellow { 
+      position: relative;
+  
+      right: -264px;
+  
+      display: none;
+    }
+  
+    #yellow2 { 
+      width: 6.875rem;
+      display: block;
+  
+      position: relative;
+  
+      left: 315px;
+    }
+  
+    .middleImage img {
+      width: 100%;
+      height: 17.9975rem;
+    }
+  
+    .middleImage #office {
+      border-radius: 0 0 40px 0;
+    }
+  
+    .middleText{
+      width: 25rem;
+      height: 19.0625rem;
+  
+      font-size: 1rem;
+  
+      position: relative;
+      
+      top: 390px;
+      left: 0px;
+    }
+}
 
 /* 360 */
 @media (max-width: 360px) {

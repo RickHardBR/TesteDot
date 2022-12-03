@@ -86,6 +86,63 @@
   }
 }
 
+/* 420 */
+
+@media (max-width: 420px) {
+  .containerSuitcase {
+    width: 100%;
+    height: 600px;
+
+    font-size: 20px;
+  }
+
+  .contentSuitcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .borderSuitcase {
+    width: 85%;
+    height: 403px;
+
+    border: 0.1875rem solid var(--white);
+
+    position: relative;
+    top: -10px;
+  }
+
+  .suitcaseIcon {
+    position: relative;
+
+    top: -220px;
+    left: 43px;
+  }
+
+  .SuitcaseTitle {
+    font-size: 2rem;
+    position: relative;
+    top: 130px;
+  }
+
+  .suitecaseBox {
+    font-size: 16px;
+
+    height: 300px;
+
+    position: relative;
+    top: 50px;
+    left: -280px;
+  }
+
+  .suitcaseText {
+    width: 350px;
+
+    margin-top: 4rem;
+  }
+}
+
 /* 360 */
 @media (max-width: 360px) {
   .containerSuitcase {

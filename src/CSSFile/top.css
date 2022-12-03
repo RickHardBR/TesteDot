@@ -61,6 +61,39 @@
   }
 }
 
+/* 420 */
+
+@media (max-width: 420px) {
+  .logodotTop {
+    background-image: url(../assets/icones/icon-logo-header.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6.25rem;
+  
+    width: 19rem;
+    height: 5.6875rem;
+  }
+  
+  .dotTitleTop {
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+  
+    margin-top: 4.25rem;
+  }
+  
+  .dotTextTop {
+    font-size: 1.5rem;
+
+    color: var(--white);
+
+    text-transform: uppercase;
+
+    margin-top: 1rem;
+  }
+}
+
 /* 360 */
 @media (max-width: 360px) {
   .containerTop {

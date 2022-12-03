@@ -252,6 +252,46 @@
   }
 }
 
+/* 420 */
+@media (max-width: 420px) {
+  .containerDropdown {
+    height: 100rem;
+  }
+
+  .dropdownTitle {
+    display: none;
+  }
+
+  .textDropdown {
+    width: 25rem;
+  }
+
+  .cardsDropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    row-gap: 2.5rem;
+  }
+
+  .purpleCard1 {
+    position: absolute;
+    top: 1970px;
+  }
+
+  .purpleCard2 {
+    position: absolute;
+    top: 2245px;
+  }
+
+  .purpleCard3 {
+    position: absolute;
+    top: 2535px;
+  }
+}
+
 /* 360 */
 @media (max-width: 360px) {
   .containerDropdown {
