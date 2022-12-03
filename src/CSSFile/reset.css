@@ -9,17 +9,14 @@
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+   user-select: none;
 }
 
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
   * {
     scrollbar-width: auto;
     scrollbar-color: #f4f0f5 #ffffff;
   }
 
-  /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 0px;
   }

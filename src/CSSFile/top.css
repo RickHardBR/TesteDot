@@ -1,7 +1,6 @@
 .containerTop {
-  background-image: url(../assets/imagens/header-1024.png);
+  background-image: url(../assets/imagens/header-1024.webp);
   background-size: contain;
-
   background-repeat: no-repeat;
   background-size: 100vw 58.5625rem;
 
@@ -20,6 +19,7 @@
   background-image: url(../assets/icones/icon-logo-header.svg);
   background-repeat: no-repeat;
   background-size: contain;
+
   margin-top: 6.25rem;
 
   width: 16rem;
@@ -28,25 +28,26 @@
 
 .dotTitleTop {
   font-size: 5.4375rem;
-  color: var(--white);
   font-weight: bold;
+
   text-transform: uppercase;
+
+  color: var(--white);
 
   margin-top: 4.25rem;
 }
 
 .dotTextTop {
   font-size: 1.875rem;
-  color: var(--white);
+
   text-transform: uppercase;
+
+  color: var(--white);
 }
 
-/* responsive */
-
-/* 1920 */
 @media (max-width: 1920px) {
   .containerTop {
-    background-image: url(../assets/imagens/header-1920.png);
+    background-image: url(../assets/imagens/header-1920.webp);
   }
 }
 
@@ -57,17 +58,16 @@
   }
 
   .containerTop {
-    background-image: url(../assets/imagens/header-1024.png);
+    background-image: url(../assets/imagens/header-1024.webp);
   }
 }
-
-/* 420 */
 
 @media (max-width: 420px) {
   .logodotTop {
     background-image: url(../assets/icones/icon-logo-header.svg);
     background-repeat: no-repeat;
     background-size: contain;
+
     margin-top: 6.25rem;
   
     width: 19rem;
@@ -76,9 +76,11 @@
   
   .dotTitleTop {
     font-size: 4rem;
-    color: var(--white);
     font-weight: bold;
+
     text-transform: uppercase;
+
+    color: var(--white);
   
     margin-top: 4.25rem;
   }
@@ -94,10 +96,9 @@
   }
 }
 
-/* 360 */
 @media (max-width: 360px) {
   .containerTop {
-    background-image: url(../assets/imagens/header-360.png);
+    background-image: url(../assets/imagens/header-360.webp);
     background-size: cover;
 
     width: 100%;
@@ -119,16 +120,20 @@
 
   .dotTitleTop {
     font-size: 45px;
-    color: var(--white);
     font-weight: bold;
+
     text-transform: uppercase;
+
+    color: var(--white);
 
     margin-top: 6.45rem;
   }
 
   .dotTextTop {
     font-size: 18px;
+
     color: var(--white);
+
     text-transform: uppercase;
   }
 }
