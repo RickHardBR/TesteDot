@@ -1,29 +1,35 @@
 .containerDropdown {
-  background-color: var(--green-300);
+  display: flex;
+  justify-content: center;
 
+  background-color: var(--green-300);
   width: 100%;
   height: 58.3125rem;
 
   font-size: 1.25rem;
-}
 
-.contentDropdown {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 4rem;
 }
 
 .dropdownTitle {
+  display: flex;
+  justify-content: center;
+
   font-size: 2.8125rem;
 
   font-weight: bold;
 
   color: var(--yellow-400);
-
-  margin-top: 4.375rem;
 }
 
+.dropdownText {
+  display: flex;
+  justify-content: center;
+
+  font-size: 2.8125rem;
+
+  color: var(--yellow-400);
+}
 .textDropdown {
   width: 59rem;
 
@@ -32,6 +38,14 @@
   color: var(--white);
 
   margin-top: 2.5rem;
+}
+
+.dropbtn {
+  color: white;
+  border-radius: 50%;
+
+  border: none;
+  cursor: pointer;
 }
 
 .cardsDropdown {
@@ -65,23 +79,15 @@
   border-radius: 1rem;
 }
 
-.purpleCard1 {
-  display: flex;
-  justify-content: center;
+button{
+  background-image: url(../assets/icones/icon-arrow-down.svg);
+  background-repeat: no-repeat;
 
-  width: 18.875rem;
-  height: 2.5rem;
-
-  background-color: var(--purple-700);
-
-  position: absolute;
+  background-position: 0.6875rem;
   
-  top: 2010px;
-
-  border-radius: 0 0 1rem 1rem;
 }
 
-.purpleCard2 {
+.dropdown {
   display: flex;
   justify-content: center;
 
@@ -90,27 +96,47 @@
 
   background-color: var(--purple-700);
 
-  position: absolute;
+  position: relative;
 
-  top: 2010px;
-
+  top: 30px;
+  
   border-radius: 0 0 1rem 1rem;
 }
 
-.purpleCard3 {
-  display: flex;
+.dropdown-content {
+  display: none;
+
   justify-content: center;
-
-  width: 18.875rem;
-  height: 2.5rem;
-
-  background-color: var(--purple-700);
+  align-content: center;
+  align-items: center;
 
   position: absolute;
 
-  top: 2010px;
+  left: 50%;
+  top: 0px;
 
-  border-radius: 0 0 1rem 1rem;
+  transform: translateX(-50%);
+
+  color: var(--purple-700);
+  background-color: var(--yellow-400);
+
+  min-width: 16.985rem;
+  max-height: 21.5625rem;
+
+  border-radius: 0 0 10px 10px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+  padding: 0.75rem 1rem;
+
+  z-index: 1;
+}
+
+.dropdown_content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .circleButton {
@@ -149,66 +175,26 @@
   cursor: pointer;
 }
 
-.dropdown {
-  position: relative;
+.show {display: block;}
 
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-
-  align-content: center;
-  align-items: center;
-
-  position: absolute;
-
-  left: 50%;
-  top: 0px;
-
-  transform: translateX(-50%);
-
-  color: var(--purple-700);
-  background-color: var(--yellow-400);
-
-  min-width: 16.985rem;
-  max-height: 21.5625rem;
-
-  border-radius: 0 0 10px 10px;
-
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
-  padding: 0.75rem 1rem;
-
-  z-index: 1;
-}
-
-.dropdown:active .dropdown-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.circleButton img {
-  margin-top: 2px;
-}
 
 @media (max-width: 1960px) {
   .purpleCard1 {
     position: relative;
 
-    top: 30px;
+    top: 0px;
   }
 
   .purpleCard2 {
     position: relative;
 
-    top: 60px;
+    top: 0px;
   }
 
   .purpleCard3 {
     position: relative;
 
-    top: 30px;
+    top: 0px;
   }
 }
 
@@ -218,7 +204,9 @@
   }
 
   .textDropdown {
-    width: 80%;
+    display: flex;
+      
+    width: 50rem;
 
     font-size: 1.25rem;
 
@@ -260,21 +248,21 @@
   }
 
   .purpleCard1 {
-    position: absolute;
+    position: relative;
 
-    top: 1935px;
+    top: 0px;
   }
 
   .purpleCard2 {
-    position: absolute;
+    position: relative;
 
-    top: 2212px;
+    top: 0px;
   }
 
   .purpleCard3 {
-    position: absolute;
+    position: relative;
 
-    top: 2490px;
+    top: 0px;
   }
 }
 
@@ -302,21 +290,21 @@
   }
 
   .purpleCard1 {
-    position: absolute;
+    position: relative;
 
-    top: 1975px;
+    top: 0px;
   }
 
   .purpleCard2 {
-    position: absolute;
+    position: relative;
 
-    top: 2250px;
+    top: 0px;
   }
 
   .purpleCard3 {
-    position: absolute;
+    position: relative;
 
-    top: 2535px;
+    top: 0px;
   }
 }
 
@@ -344,20 +332,20 @@
   }
 
   .purpleCard1 {
-    position: absolute;
+    position: relative;
 
-    top: 1756px;
+    top: 0px;
   }
 
   .purpleCard2 {
-    position: absolute;
+    position: relative;
 
-    top: 2039px;
+    top: 0px;
   }
 
   .purpleCard3 {
-    position: absolute;
+    position: relative;
 
-    top: 2352px;
+    top: 0px;
   }
 }
