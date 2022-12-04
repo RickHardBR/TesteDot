@@ -15,6 +15,7 @@ Layout passado para realização do teste.
 # Tecnologias usadas:
 ### HTML
 ### CSS
+### JS
 
 ----------------------------------------------------------------
 
